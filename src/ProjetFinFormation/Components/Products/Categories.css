@@ -1,0 +1,173 @@
+.container {
+    padding: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #70716f;
+}
+
+.filter-bar {
+    flex: 0 0 20%;
+}
+
+.sort-and-count-container {
+
+    display: flex;
+}
+
+.sorting-bar {
+    margin-right: 20px;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(25% - 20px), 1fr));
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    margin: 10px;
+}
+
+.card-img-top {
+    padding: 20px;
+    width: 100%;
+    height: 200px !important;
+    object-fit: contain;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-subtitle {
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.card-text.text-secondary {
+    margin-bottom: 5px;
+}
+
+.font-weight-bold {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.text-secondary {
+    color: #777;
+}
+
+sup {
+    font-size: 0.8em;
+    margin-left: 3px;
+}
+
+.text-secondary b {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .card-deck {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.ProductListPage section>h1 {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #274C77;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+select {
+    padding: auto;
+    margin: 0 5px;
+    font-size: 1rem;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #70716f;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select option:checked {
+    background-color: #f2f2f2;
+}
+
+select option:hover {
+    background-color: #8B8C89;
+}
+
+select:hover {
+    background-color: #E7ECEF;
+}
+
+.social {
+    width: 120px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -23px;
+    transform: scale(0);
+    transition: all .3s ease 0s
+}
+
+.card:hover .social {
+    opacity: 1;
+    transform: scale(1)
+}
+
+.card .social li {
+    display: inline-block
+}
+
+.card .social li .a {
+    color: #274C77;
+    background: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    margin: 0 2px;
+    display: block;
+    transition: all .3s ease 0s
+}
+
+.card .social li .a:hover {
+    background: #274C77;
+    color: #fff
+}
+
+.card .product-image {
+    position: relative;
+}
+
+.card:hover .card-subtitle{opacity:0}
+

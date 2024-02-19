@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Ihsane BOUTGLIMT",
+        "email": "boutglimtihsane@gmail.com",
+        "password": "btg15012003",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "name": "Asmae BOUTGLIMT",
+        "email": "btgasmae12@gmail.com",
+        "password": "031999",
+        "role": "client"
+    },
+    {
+        "id": 3,
+        "name": "Client1",
+        "email": "user3@gmail.com",
+        "password": "123456789",
+        "role": "client"
+    },
+    {
+        "id": 4,
+        "name": "Client2",
+        "email": "user4@gmail.com",
+        "password": "123456789",
+        "role": "client"
+    },
+    {
+        "id": 5,
+        "name": "Client3",
+        "email": "user5@gmail.com",
+        "password": "123456789",
+        "role": "client"
+    },
+    {
+        "id": 6,
+        "name": "Ihsane BOUTGLIMT",
+        "email": "admin",
+        "password": "admin",
+        "role": "admin"
+    }
+]
